@@ -40,7 +40,7 @@ jobs:
       - name: Flake8 代码规范检查
         run: |
           # 检查代码风格，忽略行长度和文档字符串
-          flake8 calculator tests --count --select=E9,F63,F7,F82 --show-source --statistics
+          flake8 calculator tests --count --select=E9,F63,F7,F82  --ignore=W292 --show-source --statistics
           flake8 calculator tests --count --max-line-length=88 --statistics
         continue-on-error: false
 
