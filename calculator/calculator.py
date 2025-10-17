@@ -93,6 +93,3 @@ class Calculator:
         if n < 0:
             raise ValueError("不能对负数求平方根")
         return n ** 0.5
-
-
-#测试tag
