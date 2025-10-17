@@ -40,5 +40,6 @@ disable = [
     "C0111",  # missing-docstring
 ]
 
-[flake8]
-ignore = W292
+
+[tool.flake8]
+ignore = ["W292"]
