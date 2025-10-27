@@ -2,8 +2,8 @@ name: CI - 持续集成
 
 # 触发条件
 on:
-  push:
-    branches: [ main, develop ]
+  # push:
+  #   branches: [ main, develop ]
   pull_request:
     branches: [ main, develop ]
   workflow_dispatch:  # 允许手动触发
